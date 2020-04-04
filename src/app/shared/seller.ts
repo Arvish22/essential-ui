@@ -3,6 +3,7 @@ import { Address } from './address';
 
 export class Seller {
     public id : string;
+    public dealerType : string;
     public items : Item[];
     public Address : Address;
 

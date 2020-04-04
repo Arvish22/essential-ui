@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ShopType } from 'src/app/shared/shop-type.enum';
 
 @Component({
   selector: 'app-home',
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   public haveEssentials : boolean;
+
+  public catagories = [ShopType.GROCERIES,ShopType.FRUITANDVEGETABLES,ShopType.MEDICINES,ShopType.HEALTHANDWELLNESS];
 
   constructor() { }
 

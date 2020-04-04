@@ -4,12 +4,46 @@
 
 <section class="container-fuild mt-5">
     <h4 class="text-center mb-5">We Deliver To Your Doorstep</h4>
-    <div class="container ml-5">
-    <div  *ngFor="let catagory of catagories">
-        {{catagory}}
-        <div>
-            Surya Mart
+</section>
+
+<ng-container>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-3 groceries-icon text-center">
+                <img src='./../../../assets/images/groceries.jpg'>
+                <div><span>{{catagories[0]}}</span></div>
+            </div>
+            <div class="col-sm-3 fruit-veg-icon text-center">
+                <img src='./../../../assets/images/fruits-vegetables.jpg'>
+                <div><span>{{catagories[1]}}</span></div>
+            </div>
+            <div class="col-sm-3 medicine-icon text-center">
+                <img src='./../../../assets/images/medicines.png'>
+                <div><span>{{catagories[2]}}</span></div>
+            </div>
+            <div class="col-sm-3 health-wellness-icon text-center">
+                <img src='./../../../assets/images/healthandwellness.png'>
+                <div><span>{{catagories[3]}}</span></div>
+            </div>
         </div>
     </div>
+</ng-container>
+
+<ng-container>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-3 groceries-icon text-center">
+               
+            </div>
+            <div class="col-sm-3 fruit-veg-icon text-center">
+               
+            </div>
+            <div class="col-sm-3 medicine-icon text-center">
+    
+            </div>
+            <div class="col-sm-3 health-wellness-icon text-center">
+               
+            </div>
+        </div>
     </div>
-</section>
+</ng-container>
