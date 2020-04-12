@@ -1,11 +1,12 @@
 export class Address {
+    
     public id : string;
     public country : string;
     public state : string;
+    public street : string;
     public city : string;
-    public Area : string;
+    public area : string;
     public houseNo : string;
-    public phoneNo : number;
 
     constructor(options : Partial<Address>) {
         Object.assign(this, options);

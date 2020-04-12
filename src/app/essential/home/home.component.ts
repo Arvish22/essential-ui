@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
 
   public haveEssentials : boolean;
 
-  public catagories = [ShopType.GROCERIES,ShopType.FRUITANDVEGETABLES,ShopType.MEDICINES,ShopType.HEALTHANDWELLNESS];
+  public shopTypes = [ShopType.GROCERIES,ShopType.FRUITANDVEGETABLES,ShopType.MEDICINES,ShopType.HEALTHANDWELLNESS];
 
   constructor() { }
 
